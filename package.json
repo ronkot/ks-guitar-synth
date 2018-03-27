@@ -1,0 +1,20 @@
+{
+  "name": "ks-guitar-synth",
+  "repository": {
+    "url": "github:ronkot/ks-guitar-synth"
+  },
+  "version": "0.0.1",
+  "description": "Karplus-Strong guitar synthesizer in Javascript",
+  "keywords": ["guitar", "web audio", "sound", "karplus-strong"],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "microbundle src/js/index.js",
+    "dev": "microbundle watch --no-compress src/js/index.js"
+  },
+  "author": "Jaakko Juvonen <jaakko.k.juvonen@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "4.4.1",
+    "microbundle": "^0.4.4"
+  }
+}
